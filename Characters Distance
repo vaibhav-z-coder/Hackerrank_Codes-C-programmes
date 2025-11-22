@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int letterDistance(char c1, char c2) {
+    return c2 - c1;
+}
+
+int main() {
+    char char1, char2;
+
+    scanf("%c %c", &char1, &char2);
+
+    int distance = letterDistance(char1, char2);
+
+    printf("The distance between %c and %c is %d", char1, char2, distance);
+
+    return 0;
+}

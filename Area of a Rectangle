@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int areaofrectangle(int l, int b){
+  return l*b;
+  
+}
+
+int main() {  
+  int l,b;
+    scanf("%d %d", &l, &b);
+  int result=areaofrectangle(l,b);
+  printf("The area is: %d units", result);  
+    return 0;
+}

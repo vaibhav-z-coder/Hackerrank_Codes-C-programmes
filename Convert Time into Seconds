@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+
+int toSeconds(int hours, int minutes, int seconds) {
+    return hours * 3600 + minutes * 60 + seconds;
+}
+
+int main() {
+    int h, m, s;
+
+    scanf("%d %d %d", &h, &m, &s);
+
+    int total = toSeconds(h, m, s);
+
+    printf("Total seconds: %d", total);
+
+    return 0;
+}

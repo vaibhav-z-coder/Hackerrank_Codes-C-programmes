@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+int a;
+  scanf("%d", &a);
+  double c=a/2.0;
+  scanf("%f", &c);
+  printf("Half of %d is %.2f", a,c);
+    return 0;
+}

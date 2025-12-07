@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+int salary;
+float tax;
+  scanf("%d", &salary);
+  if(salary<0){
+    printf("INVALID");
+    return 0;
+  }
+  else if(salary>1000000){
+    tax=(salary-1000000)*0.30+500000*0.20+250000*0.05;
+  }
+  else if(salary>500000){
+    tax=(salary-500000)*0.20+250000*0.05;
+  }
+  
+  else if(salary>250000){
+    tax=(salary-250000)*0.05;
+  }
+  else if(salary<=250000 && salary>=0){
+    tax=0;
+  }
+  printf("%.2f", tax);
+    return 0;
+}

@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int price;
+float discount;
+scanf("%d" , &price);
+  scanf("%f" , &discount);
+  
+  
+  double result= (price*discount)/100;
+  double final_result=price-result;
+  printf("The final price is: %.6f", final_result);
+  
+    return 0;
+}

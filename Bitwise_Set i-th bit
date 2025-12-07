@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+
+int num;
+  int i;
+  
+  scanf("%d", &num);
+  scanf("%d", &i);
+
+  
+  int res=num|(1<<i);
+    scanf("%d", &res);
+  printf("%d", res);
+    return 0;
+}

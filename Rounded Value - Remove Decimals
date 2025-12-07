@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+double a;
+  scanf("%lf", &a);
+  int res=a;
+  printf("Rounded Value = %d", res);
+ 
+    return 0;
+}

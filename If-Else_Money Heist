@@ -1,0 +1,125 @@
+#include <stdio.h>
+
+int main() {
+
+    int d0,d1,d2,d3,d4,d5,d6,d7,d8,d9; 
+    
+  int i1,i2,i3,c1,c2,c3;
+ 
+  scanf("%d %d %d %d %d %d %d %d %d %d ", &d0, &d1, &d2, &d3, &d4, &d5, &d6, &d7, &d8, &d9);
+ 
+
+  scanf("%d %d",&i1,&c1);
+  scanf("%d %d",&i2,&c2);
+  scanf("%d %d",&i3,&c3);
+
+  
+ 
+  
+  if(i1==0){
+    d0 = (d0 + c1)%10;
+  }
+  else if(i1==1){
+    d1= (d1 + c1)%10;
+  }
+  else if(i1==2){
+    d2 = (d2 + c1)%10;
+  }
+  else if(i1==3){
+    d3 = (d3 + c1)%10;
+  }
+  else if(i1==4){
+    d4 = (d4 + c1)%10;
+  }
+  else if(i1==5){
+    d5 = (d5 + c1)%10;
+  }
+  else if(i1==6){
+    d6 = (d6 + c1)%10;
+  }
+  else if(i1==7){
+    d7 = (d7 + c1)%10;
+  }
+  else if(i1==8){
+    d8 = (d8 + c1)%10;
+  }
+  else if(i1==9){
+    d9 = (d9 + c1)%10;
+  }
+  
+  
+  
+  
+  if(i2==0){
+    d0 = (d0 + c2)%10;
+  }
+  else if(i2==1){
+    d1 = (d1 + c2)%10;
+  }
+  else if(i2==2){
+    d2 = (d2 + c2)%10;
+  }
+  else if(i2==3){
+    d3 = (d3 + c2)%10;
+  }
+  else if(i2==4){
+    d4 = (d4 + c2)%10;
+  }
+  else if(i2==5){
+    d5 = (d5 + c2)%10;
+  }
+  else if(i2==6){
+    d6 = (d6 + c2)%10;
+  }
+  else if(i2==7){
+    d7 = (d7 + c2)%10;
+  }
+  else if(i2==8){
+    d8 = (d8 + c2)%10;
+  }
+  else if(i2==9){
+    d9 = (d9 + c2)%10;
+  }
+  
+  
+  
+  
+  
+  if(i3==0){
+    d0 = (d0 + c3)%10;
+  }
+  else if(i3==1){
+    d1 = (d1 + c3)%10;
+  }
+    else if(i3==2){
+    d2 = (d2 + c3)%10;
+  }
+    else if(i3==3){
+    d3 = (d3 + c3)%10;
+  }
+    else if(i3==4){
+    d4 = (d4 + c3)%10;
+  }
+    else if(i3==5){
+    d5 = (d5 + c3)%10;
+  }
+    else if(i3==6){
+    d6 = (d6 + c3)%10;
+  }
+    else if(i3==7){
+    d7 = (d7 + c3)%10;
+  }
+    else if(i3==8){
+    d8 = (d8 + c3)%10;
+  }
+    else if(i3==9){
+    d9 = (d9 + c3)%10;
+  }
+  
+  
+  
+  
+  printf("%d %d %d %d %d %d %d %d %d %d ",d0,d1,d2,d3,d4,d5,d6,d7,d8,d9);
+
+    return 0;
+}
